@@ -1,0 +1,65 @@
+.footer {
+    position: absolute;
+    top: 4200px;
+}
+
+.banner-img {
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+}
+
+.copiy {
+    position: absolute;
+    width: 1500px;
+    margin-top: 222px;
+    height: 80px;
+}
+
+.footer-list {
+    position: relative;
+    z-index: 3;
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-title {
+    margin-top: 60px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.footer-text {
+    font-size: 40px;
+}
+
+.footer-item {
+    margin-left: 150px;
+}
+
+.footer-item-two {
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.footer-call {
+    font-size: 40px;
+}
+
+.footer-number {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer-link {
+    position: absolute;
+    margin-left: 520px;
+    font-size: 20px;
+    margin-top: -6px;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    color: aliceblue;
+}

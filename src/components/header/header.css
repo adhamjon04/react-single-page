@@ -1,0 +1,90 @@
+    .header {
+        top: -100px;
+        z-index: -1;
+        position: absolute;
+    }
+    
+    .crown {
+        top: 150px;
+        position: absolute;
+        z-index: 2;
+        margin-left: 700px;
+    }
+    
+    .header-list {
+        position: absolute;
+        list-style-type: none;
+        display: flex;
+        top: 0px;
+        z-index: 3;
+        margin-top: 70px;
+        margin-left: 500px;
+    }
+    
+    .nav-list {
+        margin-top: 40px;
+        margin-left: 200px;
+    }
+    
+    .logo {
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .nav-item {
+        margin-right: 60px;
+        color: lavender;
+    }
+    
+    .home {
+        color: #000000;
+        margin-right: 60px;
+    }
+    
+    .home:hover {
+        color: lavender;
+    }
+    
+    .nav-item:hover {
+        color: black;
+    }
+    
+    .orient {
+        position: absolute;
+        margin-top: 150px;
+        z-index: 3;
+    }
+    
+    .jewel-bold {
+        font-size: 90px;
+        margin-bottom: 30px;
+    }
+    
+    .jewel-small {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 30px;
+    }
+    
+    .jewel-solid {
+        margin-top: 0px;
+        color: aliceblue;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .jewel-btn {
+        width: 175px;
+        height: 50px;
+        border-radius: 40px;
+        border-color: bisque;
+        background: #fff;
+        font-size: 16px;
+    }
+    
+    .jewel-btn:hover {
+        background: #000;
+        color: #fff;
+        transition: 3ms ease-in;
+    }
